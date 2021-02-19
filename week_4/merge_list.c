@@ -75,14 +75,12 @@ int main(void)
     append(listA,6);
     append(listA,9);
     append(listA,10);
-    print_list(listA);
 
     append(listB,1);
     append(listB,5);
     append(listB,7);
     append(listB,8);
     append(listB,11);
-    print_list(listB);
 
     node* result = merge_two_lists(listA, listB);
     print_list(result);
