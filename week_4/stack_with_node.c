@@ -36,10 +36,7 @@ void push(stack_node **root, int data)
 }
 
 int pop(stack_node **root)
-{
-    // if(is_empty(*root));
-    //     return -9999;
-    
+{   
     // go to the last node
     stack_node *tmp = malloc(sizeof(stack_node));
     tmp = *root;
