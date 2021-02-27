@@ -21,19 +21,6 @@ int main(void)
             return 1;
         }
     }
-    // print the cube
-    for (int i=0; i<width; i++)
-    {
-        for (int j=0; j<each_height[i]; j++)
-        {
-            printf("■");
-        }
-        for (int j=0; j<height-each_height[i]; j++)
-        {
-            printf("□");
-        }
-        printf("\n");
-    }
 
     // check the top box
     int x_pos = 0;
